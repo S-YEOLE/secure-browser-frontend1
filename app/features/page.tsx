@@ -44,18 +44,22 @@ export default function Features() {
       </main>
 
       <section className="bg-gray-800 py-20 text-center">
-        <h2 className="text-3xl font-bold mb-6">Experience the SecureBrowser Difference</h2>
-        <p className="text-xl mb-10 max-w-2xl mx-auto">
-          Protect yourself with industry-leading cybersecurity features, all in one easy-to-use browser extension.
-        </p>
-        <a href="https://github.com/S-YEOLE/secure-browser-frontend1/raw/main/SecureBrowser.zip"
-  download
-  target="_blank"
-  rel="noopener noreferrer">
-    <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
-          Download SecureBrowser
-        </Button></a>
-      </section>
+  <h2 className="text-3xl font-bold mb-6">Experience the SecureBrowser Difference</h2>
+  <p className="text-xl mb-10 max-w-2xl mx-auto">
+    Protect yourself with industry-leading cybersecurity features, all in one easy-to-use browser extension.
+  </p>
+  <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+    <a
+      href="https://github.com/S-YEOLE/secure-browser-frontend1/raw/main/SecureBrowser.zip"
+      download
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Download SecureBrowser
+    </a>
+  </Button>
+</section>
+
 
       <footer className="bg-gray-900 py-10">
         <div className="container mx-auto px-4 text-center">
