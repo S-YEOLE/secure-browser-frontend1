@@ -48,9 +48,13 @@ export default function Features() {
         <p className="text-xl mb-10 max-w-2xl mx-auto">
           Protect yourself with industry-leading cybersecurity features, all in one easy-to-use browser extension.
         </p>
-        <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+        <a href="https://github.com/S-YEOLE/secure-browser-frontend1/raw/main/SecureBrowser.zip"
+  download
+  target="_blank"
+  rel="noopener noreferrer">
+    <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
           Download SecureBrowser
-        </Button>
+        </Button></a>
       </section>
 
       <footer className="bg-gray-900 py-10">
