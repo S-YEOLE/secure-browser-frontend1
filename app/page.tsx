@@ -40,9 +40,16 @@ export default function Home() {
             SecureBrowser: Your personal cybersecurity guardian. Protect against phishing, malware, and privacy threats
             with our cutting-edge browser extension.
           </p>
-          <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
-            <Download className="mr-2 h-5 w-5" /> Download Now
-          </Button>
+          <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+    <a
+      href="https://github.com/S-YEOLE/secure-browser-frontend1/raw/main/SecureBrowser.zip"
+      download
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Download Now
+    </a>
+  </Button>
         </section>
 
         <section className="bg-gray-800 py-20">
@@ -71,9 +78,16 @@ export default function Home() {
         <section className="container mx-auto px-4 py-20 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Secure Your Browser?</h2>
           <p className="text-xl mb-10">Join thousands of users who trust SecureBrowser for their online safety.</p>
-          <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
-            <Download className="mr-2 h-5 w-5" /> Get SecureBrowser
-          </Button>
+          <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+    <a
+      href="https://github.com/S-YEOLE/secure-browser-frontend1/raw/main/SecureBrowser.zip"
+      download
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Get SecureBrowser
+    </a>
+  </Button>
         </section>
       </main>
 
